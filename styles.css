@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&family=Patua+One&display=swap");
+body {
+  background: linear-gradient(#cd9cf29d 0%, #f6f3ff 100%);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Calistoga", cursive;
+}
+
+#cv-form h1 {
+  font-family: "Patua One", cursive;
+  color: #5e63b6;
+}
+#cv-form h3 {
+  font-size: 28px;
+  color: #5e63b6;
+  font-family: "Patua One", cursive;
+}
+#cv-form label {
+  font-size: 15px;
+  color: #27296d;
+}
+#cv-form p {
+  color: #5e63b6;
+}
+#cv-template {
+  display: none;
+}
+#cv-template .row {
+  margin: 2rem 0 2rem 0;
+}
+#cv-template .myimg {
+  border-radius: 50%;
+  width: 200px;
+}
+#cv-template .background {
+  background: #a393eb;
+}
+
+#cv-template .card-col h1 {
+  color: #27296d;
+  font-family: "Patua One", cursive;
+}
+
+#cv-template .card-col h3 {
+  color: #27296d;
+  font-size: 25px;
+}
+#cv-template .card-col p,
+li {
+  color: #5e63b6;
+}
+#cv-template .template-container p {
+  color: #27296d;
+}
+#cv-template .template-container a {
+  text-decoration: none;
+  color: #dcd5f8;
+}
+#cv-template .template-container a:hover {
+  color: #5e63b6;
+}
